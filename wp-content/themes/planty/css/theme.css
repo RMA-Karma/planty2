@@ -1,0 +1,12 @@
+#pamplemousse {
+    word-wrap: break-word;
+}
+
+#framboise {
+    word-wrap: break-word;
+}
+
+#wpcf7-f71-p50-o1 {
+    display: flex;
+    justify-content: center;
+}
