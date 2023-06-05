@@ -1,3 +1,47 @@
+/* MENU HEADER */
+#primary {
+    margin: 0px !important;
+}
+
+    
+.menu a {
+        color: black;
+    }
+    
+.menu {
+        gap: 50px;
+}
+
+    
+#menu-item-298 a {
+        color: white;
+        font-family: 'Syne';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        background-color: #DC9F96;
+        padding: 30px 61px 31px 61px;
+}
+    
+#menu-item-298 a:hover {
+        background-color: #C02E44;
+}
+    
+#menu-item-299 a {
+        font-family: 'Syne';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+}
+
+.site-primary-header-wrap {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+/* -----------------------*/ 
+
+
 #pamplemousse {
     word-wrap: break-word;
 }
@@ -6,7 +50,81 @@
     word-wrap: break-word;
 }
 
+
+/* FORM */
+
 #wpcf7-f71-p50-o1 {
     display: flex;
     justify-content: center;
 }
+
+/* BOUTON COMMANDE */
+.html-commande {
+    display: flex;
+}
+
+.boutons {
+    display: flex;
+    flex-direction: column;
+}
+.boutonplus, .boutonmoins {
+    padding: 3px 10px 4px 10px !important;
+    background-color: #DC9F96 !important;
+}
+
+.boutonplus {
+    border-bottom: 1px solid white !important;
+    border-radius: 0px 5px 0px 0px !important;
+}
+
+.boutonmoins {
+    border-radius: 0px 0px 5px 0px !important;
+}
+
+.number {
+    background-color: white !important;
+    padding: 11px 20px 10px 21px !important;
+    border-radius: 5px 0px 0px 5px !important;
+}
+
+.number p {
+    margin: 0px !important;
+}
+
+/* ------------------------------*/
+
+/* FORMULAIRE COMMANDE*/
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.livraison {
+    border-left: 1px solid white !important ;
+    padding-left: 44px !important;
+    height: 444px;
+}
+
+.info {
+    padding-right: 45px !important;
+}
+.form h2 {
+    color : white;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 29px;
+}
+
+.bouton-form {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.bouton-form p {
+    display: flex;
+    flex-direction: column;
+}
+
+/*     FOOTER    */
