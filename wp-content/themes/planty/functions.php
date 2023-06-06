@@ -23,3 +23,11 @@ function child_enqueue_styles() {
 }
 
 add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
+
+function astra_child_login_menu_item( $items, $args ) {
+    if ( is_user_logged_in() && $args->theme_location == 'primary') {
+        $items .= '<li id="menu-item-300"><a href="http://localhost:8888/planty/wp-admin/">Admin</a></li>';
+    }
+    return $items;
+}
+add_filter( 'wp_nav_menu_items', 'astra_child_login_menu_item', 10, 2 );
